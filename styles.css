@@ -1,0 +1,27 @@
+.grid {
+  display: inline-block; /* appear side by side*/
+  background-color: #0d7377;
+}
+.row {
+  display: flex;
+}
+h1 {
+  text-align: center;
+}
+.box {
+  border: 1px solid black;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box:hover {
+  background-color: grey;
+}
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
